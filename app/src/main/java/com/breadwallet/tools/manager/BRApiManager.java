@@ -169,7 +169,9 @@ public class BRApiManager {
 
 
     public static JSONArray fetchRates(Activity activity) {
+
         String jsonString = urlGET(activity, "https://api.strayawallet.com/rates/");
+
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
         try {
@@ -182,7 +184,8 @@ public class BRApiManager {
     }
 
     public static JSONArray backupFetchRates(Activity activity) {
-        String jsonString = urlGET(activity, "https://api.strayawallet.com/rates/");
+      
+        String jsonString = urlGET(activity, "https://api.strayawallet.com/rates/")
 
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
