@@ -88,10 +88,10 @@ public class BRCurrency {
                         currencySymbolString = BRConstants.bitcoinLowercase;
                         break;
                     case BRConstants.CURRENT_UNIT_MBITS:
-                        currencySymbolString = "₦";
+                        currencySymbolString = "Ɏ";
                         break;
                     case BRConstants.CURRENT_UNIT_BITCOINS:
-                        currencySymbolString = BRConstants.bitcoinUppercase;
+                        currencySymbolString = "₦";
                         break;
                 }
             }
